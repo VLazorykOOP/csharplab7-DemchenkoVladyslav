@@ -89,9 +89,19 @@ namespace Lab7CSharp
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(399, 59);
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(85, 20);
             this.numericUpDown1.TabIndex = 6;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // Form1
             // 
